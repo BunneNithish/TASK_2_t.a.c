@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Custom Video Background Upload</title>
+  <link rel="stylesheet" href="styles2.css" />  
+</head>
+
+<body>
+
+  <div class="header">🌐 My Dynamic Video Background Site</div>
+
+  
+  <div class="upload-section">
+    <label for="videoUpload">Choose a background video:</label>
+    <input type="file" id="videoUpload" accept="video/*">
+    <div class="file-name" id="fileName">No video uploaded yet.</div>
+  </div>
+
+  
+  <video class="video-bg" autoplay muted loop></video>
+
+  
+  <div class="content">
+    Change your background with your own video 🌟
+  </div>
+
+  <div class="controls">
+    <button id="playBtn">▶ Play</button>
+    <button id="pauseBtn">⏸ Pause</button>
+  </div>
+    <script src="VD_BG.js"></script>
+</body>
+</html>
